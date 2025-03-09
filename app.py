@@ -22,3 +22,5 @@ replace_word = st.text_input('Enter the word to replace it with 🔄')
 if search_word and replace_word:
     new_text = text.replace(search_word, replace_word)
     st.write('New text Generated:', new_text, '✏️')
+
+st.write('Made with ❤️ by Umm e Habiba Madni')
